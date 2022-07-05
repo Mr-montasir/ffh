@@ -8,8 +8,7 @@ public_folder: "img"
 collections:
   - name: "post" 
     label: "Post" 
-    folder: "content/post" 
-    path: {{slug}}/index
+    folder: "content/post"  
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}--{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
